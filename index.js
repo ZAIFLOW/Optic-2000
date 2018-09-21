@@ -15,7 +15,7 @@ bot.on('guildMemberAdd', member => {
     }).catch(console.error)
 });
 
-const ban = require('./kick et ban/ban');
+const ban = require('./ban');
 
 
 bot.on('message', function (message){
